@@ -32,7 +32,7 @@ export default function Profile() {
             {configData.desc}
           </p>
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal pt-6">
-            <button
+            <a href={configData.hireMeLink}><button
               type="button"
               className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mr-2 mb-2"
             >
@@ -51,7 +51,7 @@ export default function Profile() {
                 />
               </svg>
               Hire Me
-            </button>
+            </button></a>
             <CopyEmailButton />
           </div>
         </div>

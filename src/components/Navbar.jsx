@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
+import { getConfigData } from "../data/configReader";
 
 export default function Navbar() {
+  const configData = getConfigData();
+
   return (
     <>
       <header className="py-2 px-2 fixed top-0 left-0 w-full z-40">
@@ -104,7 +107,7 @@ export default function Navbar() {
               </NavLink>
             </div>
             <div className="justify-center">
-              <button
+              <a href={configData.hireMeLink}><button
                 type="button"
                 className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mx-7"
               >
@@ -123,7 +126,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <span className="hidden md:block">Hire Me</span>
-              </button>
+              </button></a>
             </div>
           </navbar>
         </div>

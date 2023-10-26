@@ -6,7 +6,7 @@
   "status": "on",
   "projects": [
     {
-      "project-image-url": "src/assets/app-icon.png",
+      "project-image-url": "https://raw.githubusercontent.com/kaanayyildiz/benfolio/main/src/assets/app-icon.png",
       "project-name": "Benfolio",
       "project-desc": "React + Tailwind Portfolio"
     }

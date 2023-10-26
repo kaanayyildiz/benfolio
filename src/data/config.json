@@ -1,0 +1,32 @@
+{
+  "job": "Frontend Developer",
+  "name": "John Doe",
+  "desc": "The traveler of this path, a web designer in Turkey.",
+  "email": "john.doe@example.com",
+  "status": "on",
+  "projects": [
+    {
+      "project-image-url": "src/assets/app-icon.png",
+      "project-name": "Benfolio",
+      "project-desc": "React + Tailwind Portfolio"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaXTwitter",
+      "link": "https://x.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com"
+    }
+  ]
+}
